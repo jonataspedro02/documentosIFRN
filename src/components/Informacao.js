@@ -15,15 +15,15 @@ export default props => (
    <Text>GITHUB:</Text>
    <Text>LINKEDIN:</Text>
 
-   <Text>NAYONARA</Text>
+   <Text>NAYONARA GALVÃO DA SILVA</Text>
 
-   <Text>CURSO:</Text>
-   <Text>GITHUB:</Text>
-   <Text>LINKEDIN:</Text>
+   <Text>CURSO:Sistemas para internet - 5º período </Text>
+   <Text>GITHUB: <a href="https://github.com/Nayonara1"></a></Text>
+   <Text>LINKEDIN: <a href=""></a></Text>
 
-   <Text>LAURA</Text>
+   <Text>LAURA KAUANNE DA SILVA</Text>
 
-   <Text>CURSO:</Text>
+   <Text>CURSO:Sistemas para internet - 5º período</Text>
    <Text>GITHUB:</Text>
    <Text>LINKEDIN:</Text>
 
