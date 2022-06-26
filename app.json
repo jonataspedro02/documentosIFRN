@@ -1,11 +1,10 @@
 {
   "expo": {
-    "name": "quarto_app",
-    "slug": "quarto_app",
+    "name": "docsatualizado",
+    "slug": "snack-e25468f8-d95e-4d08-b5d1-82fcae573023",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
