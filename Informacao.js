@@ -17,7 +17,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
    <Text>CURSO: Sitemas para Internet, 5° Período.</Text>
    <Text style={styles.botao}> 
-   <Button color="blue" title="github de jonatas"
+   <Button color="#3EA055" title="github de jonatas"
             onPress={() => {
               Linking.openURL('https://github.com/jonataspedro02');
             }}>
@@ -33,7 +33,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
    </Text>
 
     <Text style={styles.botao}>
-    <Button color="blue" title="LINKEDIN"
+    <Button color="#3EA055" title="LINKEDIN"
             onPress={() => {
               Linking.openURL('https://www.linkedin.com/in/jonatas-pedro-58643410b/');
             }}>
@@ -54,7 +54,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
    <Text>CURSO: Sistemas para internet - 5º período </Text>
     <Text style={styles.botao}>
-   <Button color="blue" title="GITHUB"
+   <Button color="#3EA055" title="GITHUB"
             onPress={() => {
               Linking.openURL('https://github.com/Nayonara1');
             }}>
@@ -66,7 +66,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
    
    </Text>
    <Text> 
-   <Button color="blue" title="LINKEDIN:"
+   <Button color="#3EA055" title="LINKEDIN:"
             onPress={() => {
               Linking.openURL('https://www.linkedin.com/in/nayonara-galvao');
             }}>
@@ -82,7 +82,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
    <Text>CURSO:Sistemas para internet - 5º período</Text>
       <Text style={styles.botao}>
-      <Button color="blue" title="GITHUB"
+      <Button color="#3EA055" title="GITHUB"
             onPress={() => {
               Linking.openURL('https://github.com/Laura-kauanny');
             }}>
@@ -93,7 +93,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
       </Button>
    
     
-      <Button color="blue" title="LINKEDIN:"
+      <Button color="#3EA055" title="LINKEDIN:"
             onPress={() => {
               Linking.openURL('https://www.linkedin.com/in/31laura-kauanne-da-silva-822622220/');
             }}>

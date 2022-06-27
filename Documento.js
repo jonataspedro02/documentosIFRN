@@ -15,7 +15,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
             <ScrollView style={{padding: 15}}>
              
            
-      <Button color="orange" title="Download"
+      <Button color="#3EA055" title="Download"
             onPress={() => {
               Linking.openURL('https://portal.ifrn.edu.br/ensino/cursos/cursos-de-graduacao/tecnologia/tecnologia-em-sistemas-para-internet/at_download/coursePlan');
             }}>
