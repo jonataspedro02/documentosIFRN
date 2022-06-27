@@ -81,20 +81,30 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
    <Text>LAURA KAUANNE DA SILVA</Text>
 
    <Text>CURSO:Sistemas para internet - 5º período</Text>
-   <Text>GITHUB:</Text>
+      <Text style={styles.botao}>
+      <Button color="blue" title="GITHUB"
+            onPress={() => {
+              Linking.openURL('https://github.com/Laura-kauanny');
+            }}>
+         
+         } }
+       >
+
+      </Button>
+   
+    
+      <Button color="blue" title="LINKEDIN:"
+            onPress={() => {
+              Linking.openURL('https://www.linkedin.com/in/31laura-kauanne-da-silva-822622220/');
+            }}>
+         
+         } }
+       >
+
+      </Button>
+   </Text>
    <Text>LINKEDIN:</Text>
-    <Text>GITHUB:</Text>
-   <Text>LINKEDIN:</Text>
-    <Text>GITHUB:</Text>
-   <Text>LINKEDIN:</Text>
-    <Text>GITHUB:</Text>
-   <Text>LINKEDIN:</Text>
-    <Text>GITHUB:</Text>
-   <Text>LINKEDIN:</Text>
-    <Text>GITHUB:</Text>
-   <Text>LINKEDIN:</Text>
-    <Text>GITHUB:</Text>
-   <Text>LINKEDIN:</Text>
+    
     </ScrollView>
    </View>
    )
