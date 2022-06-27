@@ -56,7 +56,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
     <Text style={styles.botao}>
    <Button color="blue" title="GITHUB"
             onPress={() => {
-              Linking.openURL('#');
+              Linking.openURL('https://github.com/Nayonara1');
             }}>
          
          } }
