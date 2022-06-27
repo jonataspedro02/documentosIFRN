@@ -68,7 +68,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
    <Text> 
    <Button color="blue" title="LINKEDIN:"
             onPress={() => {
-              Linking.openURL('#');
+              Linking.openURL('https://www.linkedin.com/in/nayonara-galvao');
             }}>
          
          } }
