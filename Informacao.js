@@ -9,15 +9,32 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
    return (
    <View style={styles.container}>
          <ScrollView style={{padding: 15}}>
-     <Text style={styles.sobre}>SOBRE O APP</Text>
- 
-     <Text>XXXXXXXXXXXXXXXXX</Text>
-     <Text>DEVS:</Text>
-   <Text>JONATAS PEDRO DA SILVA</Text>
-
-   <Text>CURSO: Sitemas para Internet, 5° Período.</Text>
+     <Text style={styles.sobre}>SOBRE O APP
+   <Text>
+   {'\n'}  
+    </Text>
+   <Text>
+   {'\n'}  
+    </Text>
+     <Text>Desenvolvido para facilitar o acesso a documentos para discentes 
+     e docentes.</Text>
+     </Text>
+     <Text>
+   {'\n'}  
+    </Text>
+     <Text> DEVS: </Text>
+     <Text>
+   {'\n'}  
+    </Text>
+    <Text style={styles.devs}> 
+   <Text>JONATAS PEDRO DA SILVA
+    <Text>
+   {'\n'}  
+    </Text>
+   CURSO: Sitemas para Internet, 5° Período.</Text>
+  </Text>
    <Text style={styles.botao}> 
-   <Button color="#3EA055" title="github de jonatas"
+   <Button color="#3EA055" title="github"
             onPress={() => {
               Linking.openURL('https://github.com/jonataspedro02');
             }}>
@@ -47,12 +64,15 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
    
    </Text>
 
- 
 
 
+ <Text style={styles.devs}> 
    <Text>NAYONARA GALVÃO DA SILVA</Text>
-
-   <Text>CURSO: Sistemas para internet - 5º período </Text>
+    <Text>
+   {'\n'}  
+    </Text>
+   <Text>CURSO: Sistemas para internet - 5º período. </Text>
+   </Text>
     <Text style={styles.botao}>
    <Button color="#3EA055" title="GITHUB"
             onPress={() => {
@@ -65,8 +85,8 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
       </Button>
    
    </Text>
-   <Text> 
-   <Button color="#3EA055" title="LINKEDIN:"
+    <Text style={styles.botao}>
+   <Button color="#3EA055" title="LINKEDIN"
             onPress={() => {
               Linking.openURL('https://www.linkedin.com/in/nayonara-galvao');
             }}>
@@ -78,9 +98,13 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
    </Text>
 
+    <Text style={styles.devs}> 
    <Text>LAURA KAUANNE DA SILVA</Text>
-
-   <Text>CURSO:Sistemas para internet - 5º período</Text>
+    <Text>
+   {'\n'}  
+    </Text>
+   <Text>CURSO:Sistemas para internet - 5º período.</Text>
+   </Text>
       <Text style={styles.botao}>
       <Button color="#3EA055" title="GITHUB"
             onPress={() => {
@@ -91,9 +115,10 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
        >
 
       </Button>
-   
-    
-      <Button color="#3EA055" title="LINKEDIN:"
+   </Text>
+       
+        <Text style={styles.botao}>
+      <Button color="#3EA055" title="LINKEDIN"
             onPress={() => {
               Linking.openURL('https://www.linkedin.com/in/31laura-kauanne-da-silva-822622220/');
             }}>
@@ -103,7 +128,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
       </Button>
    </Text>
-   <Text>LINKEDIN:</Text>
+   
     
     </ScrollView>
    </View>
@@ -116,14 +141,23 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
  const styles = StyleSheet.create({
   container: {
     marginTop: 10,
-    fontSize: 18,
+    
     fontWeight: 'arial',
-    textAlign: 'center',
+    textAlign: 'left',
     marginVertical: 90,
+    font: 'bold',
   },
   botao : {
     paddingBottom: 5,
+     fontSize: 10,
+  }, 
+  sobre : {
+    textAlign: 'center',
+    fontSize: 20,
+    marginTop: 2,
+     marginBottom: -10,
+  }, 
+  devs : {
+    marginBottom: 5,
   }
   });
-   
-  

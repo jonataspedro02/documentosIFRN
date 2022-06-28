@@ -10,22 +10,25 @@ import Informacao from './Informacao';
 
 function Index ({ navigation}) {
  return(
-   <View style={styles.container}>
+   <View>
      <Text style={styles.paragraph}>
-    ESCREVER UM PEQUENO TEXTO INICIAL
+   O INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA 
+   DO RIO GRANDE DO NORTE - CAMPUS CANGUARETAMA, DISPÕE DE DOCUMENTOS OFICIAIS PARA AS MAIS VARIADAS OCASIÕES,
+   AQUI VOCÊ PODERÁ ENCONTRAR UMA BOA PARTE DELES.
      </Text>
-     <Button color="green"
+     <Button color="#3EA055"
      title="Acesse os documentos"
      onPress={() => navigation.navigate ('Documento')}
    />
-    <Text style={styles.sobre}>
+  
+    <View style={styles.sobre}>
    
     <Button 
-    color="black" 
-     title="Informacao"
+    color="#3EA055"
+     title="Informação"
      onPress={() => navigation.navigate ('Informacao')}
    />
-   </Text>
+   </View>
    </View>
 
    
@@ -40,34 +43,37 @@ export default function App() {
    <NavigationContainer>
       <Stack.Navigator initialRouteName='Index' screenOptions={{headerShown: true}}>
         <Stack.Screen name="Index" component={Index} options={{title:"IFRN CAMPUS CANGUARETAMA",
-      headerStyle: {
+     headerStyle: {
         backgroundColor: '#bbb', 
       }}}/>
-    <Stack.Screen name="Documento" component={Documento} />
-     <Stack.Screen name="Informacao" component={Informacao} options={{ title: 'Devs'}}/>
+    <Stack.Screen name="Documento" component={Documento} options={{title:"DOCUMENTOS",
+     headerStyle: {
+        backgroundColor: '#bbb', 
+      }}}/>
+     <Stack.Screen name="Informacao" component={Informacao} options={{title:"INFORMAÇÕES",
+     headerStyle: {
+        backgroundColor: '#bbb', 
+      }}}/>
     </Stack.Navigator>
    </NavigationContainer>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    paddingTop: 12,
-    backgroundColor: '#ecf0f1',
-    padding: -20,
-    marginTop: -230,
-  },
+ 
   paragraph: {
-    margin: 74,
+    margin: 54,
+    marginLeft: 20,
+    marginRight: 30,
     fontSize: 18,
     fontWeight: 'bold',
     textAlign: 'center',
   },
   sobre: {
-    fontSize: 14,
     fontWeight: 'bold',
     textAlign: 'center',
+    height: '130',
+    fontSize: 14,
+    marginTop: 310,
   }
 });
