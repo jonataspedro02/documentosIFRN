@@ -13,36 +13,29 @@ function Index ({ navigation}) {
    <View>
      <Text style={styles.paragraph}>
    O INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA 
-   DO RIO GRANDE DO NORTE - CAMPUS CANGUARETAMA, DISPÕE DE DOCUMENTOS OFICIAIS PARA AS MAIS VARIADAS OCASIÕES,
-   AQUI VOCÊ PODERÁ ENCONTRAR UMA BOA PARTE DELES.
+   DO RIO GRANDE DO NORTE - CAMPUS CANGUARETAMA, DISPÕE DE DOCUMENTOS OFICIAIS PARA AS MAIS VARIADAS OCASIÕES, AQUI VOCÊ PODERÁ ENCONTRAR UMA BOA PARTE DELES.
      </Text>
-     <Button color="#3EA055"
-     title="Acesse os documentos"
-     onPress={() => navigation.navigate ('Documento')}
-   />
-  
+       <Button color="#3EA055"
+         title="Acesse os documentos"
+          onPress={() => navigation.navigate ('Documento')}
+           />
     <View style={styles.sobre}>
-   
-    <Button 
-    color="#3EA055"
-     title="Informação"
-     onPress={() => navigation.navigate ('Informacao')}
-   />
+       <Button 
+        color="#3EA055"
+        title="SOBRE"
+        onPress={() => navigation.navigate ('Informacao')}
+        />
    </View>
-   </View>
-
-   
+  </View>  
  );
 }
-
-
 const Stack = createNativeStackNavigator();
 
 export default function App() {
   return (
    <NavigationContainer>
       <Stack.Navigator initialRouteName='Index' screenOptions={{headerShown: true}}>
-        <Stack.Screen name="Index" component={Index} options={{title:"IFRN CAMPUS CANGUARETAMA",
+        <Stack.Screen name="Index" component={Index} options={{title:"IFRN CAMPUS - CANGUARETAMA",
      headerStyle: {
         backgroundColor: '#bbb', 
       }}}/>
@@ -58,9 +51,7 @@ export default function App() {
    </NavigationContainer>
   );
 }
-
 const styles = StyleSheet.create({
- 
   paragraph: {
     margin: 54,
     marginLeft: 20,
